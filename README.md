@@ -7,7 +7,7 @@ The below class diagram depicts the relationship between interfaces and classes 
 ### Architecture - before changes
 Let's take a look into the current implementation of lambda.
 
-![Before architectural changes](before_changes.jpg?raw=true)
+![Before architectural changes](doc/before_changes.jpg?raw=true)
 
 #### Best practices for performance optimization
 A few best practices which I found interesting for lambda performance optimization are:
