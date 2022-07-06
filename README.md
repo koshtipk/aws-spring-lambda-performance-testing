@@ -7,12 +7,12 @@ The below class diagram depicts the relationship between interfaces and classes 
 ### Architecture - before changes
 Let's take a look into the current implementation of lambda.
 
-![alt text](https://github.com/koshtipk/aws-spring-lambda-performance-testing/blob/main/doc/Before_Changes.jpg?raw=true)
+![alt text](before_changes.jpg?raw=true)
 ![plot](doc/Before_Changes.jpg?raw=true "Title")
 
-<img src="/doc/Before_Changes.jpg" />
+<img src="before_changes.jpg" />
 
-![GitHub Logo](./doc/Before_Changes.jpg)
+![GitHub Logo](before_changes.jpg)
 
 #### Best practices for performance optimization
 A few best practices which I found interesting for lambda performance optimization are:
