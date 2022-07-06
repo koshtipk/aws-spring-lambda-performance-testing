@@ -11,7 +11,8 @@ Let's take a look into the current implementation of lambda.
 ![plot](doc/Before_Changes.jpg?raw=true "Title")
 
 <img src="/doc/Before_Changes.jpg" />
-![][/doc/Before_Changes.jpg]
+
+![GitHub Logo](/doc/Before_Changes.jpg?raw=true)
 
 #### Best practices for performance optimization
 A few best practices which I found interesting for lambda performance optimization are:
