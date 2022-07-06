@@ -4,11 +4,12 @@ After implementing the spring-based lambda function, performance is the most imp
 ### Class diagram
 The below class diagram depicts the relationship between interfaces and classes used for this solution. Below are all concrete classes that provide base functionality support and are used in actual lambda implementation.
 
+![Class diagram](/doc/lambda_performance_class_diagram.jpg)
+
 ### Architecture - before changes
 Let's take a look into the current implementation of lambda.
 
-![test](/doc/performance_result_1.png)
-
+![Before changes](/doc/before_changes.jpg)
 
 #### Best practices for performance optimization
 A few best practices which I found interesting for lambda performance optimization are:
@@ -22,6 +23,8 @@ A few best practices which I found interesting for lambda performance optimizati
 Based on the above best practices, below are the changes taken.
 
 ### Architecture - after changes
+
+![After changes](/doc/after_changes.jpg)
 
 Additionally, we will add JAVA_TOOL_OPTIONS=-XX:+TieredCompilation -XX:TieredStopAtLevel=1 environment variable which has significantly improved lambda performance.
 
@@ -40,6 +43,10 @@ After posting the above changes, let's test both the APIs and compare their resu
 #### Result comparison
 
 We run two APIs v1 and v2 parallelly for 10 and 20 requests respectively and below is the report for the same.
+
+![Performance comparison for 10 requests](/doc/performance_result_1.png)
+
+![Performance comparison for 20 requests](/doc/performance_result_2.png)
 
 
 
