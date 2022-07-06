@@ -12,7 +12,7 @@ Let's take a look into the current implementation of lambda.
 
 <img src="/doc/Before_Changes.jpg" />
 
-![GitHub Logo](/doc/Before_Changes.jpg?raw=true)
+![GitHub Logo](./doc/Before_Changes.jpg)
 
 #### Best practices for performance optimization
 A few best practices which I found interesting for lambda performance optimization are:
